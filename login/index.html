@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../Bootstrap-4.4.1/css/bootstrap.css" type="text/css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>MunPortal - Log In</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <div class="navbar-brand" href="#">MunPortal - <small>LogIn</small></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Applications <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Enquiries</a>
+                    </li>
+                </ul>
+                <span>
+                    <a href="index.html" class="btn btn-outline-success my-2 my-sm-0">Log In</a>
+                    |
+                    <a href="register/index.php" class="text-success">Register</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav bar -->
+    <!-- nav oversight -->
+    <div class="bg-head-spacing"></div>
+    <!-- end of nav oversight -->
+    <!-- admin message -->
+    <div class="container">
+        <div class="alert1 alert-warning alert-dismissible fade hide" role="alert" id="alert">
+            <strong>Holy guacamole!</strong> You need the admin username and password or your correct username and password to sign in! 
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+    <!-- end admin message -->
+    <!-- form -->
+    <form  action="" method="post" id="lg-form">
+        <!-- -->
+        <div class="container">
+            <h2 class="bd-heading">Login</h2>
+
+            <div class="form-group">
+                <label for="inputusername">User Name</label>
+                <input name="username" type="text" class="form-control" id="inputusername" placeholder="Username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="inputpasswordinput">Password</label>
+                <input name="password" type="password" class="form-control" id="inputpassword" aria-describedby="passwordhelp" placeholder="Password" required>
+
+                <small id="passwordhelp" class="form-text text-danger">Username and password are case sensitive</small>
+            </div>
+            <!-- <button id="btnn">Submit</button> -->
+            <input type="submit" class="btn btn-outline-success my-2 my-sm-0" value="Login" id="submitBtn">
+        </div>
+    </form>
+    <!-- end of form -->
+    <!-- login notice section -->
+    <div class="container bd-section">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magnam recusandae molestiae optio nisi omnis tenetur unde non porro, sed, qui vitae, maiores deleniti. Ratione perspiciatis repellat minima iste facilis?</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus a eveniet aliquid rerum culpa odit ipsum! Repudiandae, debitis dolorem sapiente ad, quas iusto numquam sed inventore suscipit, aperiam quisquam earum.</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ab atque voluptatem eaque sunt, asperiores aliquam voluptatibus, eligendi blanditiis odio unde quos quis vero, sapiente at. Rerum obcaecati nam velit!</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magnam recusandae molestiae optio nisi omnis tenetur unde</p>
+    </div>
+    <!-- end of login notice section -->
+    <!-- footer -->
+    <footer class="bd-footer">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; MUNPORTAL Group 2020</span>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <!-- JQUERY Script -->
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <!-- <script src="Bootstrap-4.4.1/js/popper.js"></script> -->
+    <!-- Bootstrap Js -->
+    <script src="../Bootstrap-4.4.1/js/bootstrap.js"></script>
+    <!-- Custom Js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
