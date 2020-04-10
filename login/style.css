@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+}
+.bg-head-spacing {
+    margin-top: 76.3px;
+}
+.alert1 {
+    display: none;
+    margin-top: 46.3px !important;
+}
+.bd-form {
+    margin-top: 76.3px;
+    margin-bottom: 5px;
+}
+/* .hide {
+    display: none !important;
+} */
+.bd-heading {
+    margin: 10px 0;
+}
+.bd-section {
+    margin-top: 30px;
+}
+.bd-footer {
+    background-color: #f7f7f7;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
