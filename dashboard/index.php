@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="container">
-        <!-- <h2 id="">Welcome, <?php echo $_POST["username"] ?></h2> -->
+        <!-- <h2 id="">Welcome, <?php //echo $_POST["username"] ?></h2> -->
         <h2>Edit Personal Data</h2>
         <form action="" method="post">
             <div class="form-group">
